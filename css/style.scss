@@ -7,6 +7,8 @@ $bgColor:#f9fafa;
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @mixin main-font {
   font-family: "Poppins", sans-serif;
 }
@@ -369,71 +371,7 @@ a:focus {
 // end slider section
 
 
-// shop section
-.shop_section {
-  .heading_container {
-    margin-bottom: 20px;
-  }
 
-  .box {
-    background-color: #eeeeee;
-    position: relative;
-    padding: 10px;
-    margin-top: 25px;
-
-    a {
-      color: $black;
-    }
-
-    .img-box {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 15px 30px;
-      height: 245px;
-
-      img {
-        max-width: 100%;
-        max-height: 145px;
-      }
-    }
-
-    .detail-box {
-      display: flex;
-      justify-content: space-between;
-
-      h6 {
-        span {
-          color: $primary1;
-        }
-      }
-    }
-
-    .new {
-      width: 50px;
-      height: 50px;
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background-color: $white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 100%;
-      font-size: 15px;
-    }
-  }
-
-  .btn-box {
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
-
-    a {
-      @include hero_btn($primary1, $white, 10px, 40px, 5px);
-    }
-  }
-}
 
 // end shop section
 
