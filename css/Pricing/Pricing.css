@@ -96,10 +96,15 @@ z-index: 1;
 }
 .price h4 {
 margin: 0;
-padding: 20px 0 ;
+
 color: #fff;
 font-size: 60px;
 }
+.price h6 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 10px;
+    }
 .option ul {
   margin: 0;
   padding: 0;
